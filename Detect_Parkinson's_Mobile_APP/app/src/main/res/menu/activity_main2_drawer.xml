@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        andr
+        <item
+            android:id="@+id/test1"
+            android:icon="@drawable/test2"
+            android:background="#000"
+            android:title="Home" />
+        <item
+            android:id="@+id/sym"
+            android:icon="@drawable/sq"
+            android:title="Symptoms"
+            />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/log"
+            android:title="Log out" />
+    </group>>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+
+        </menu>
+    </item>
+
+</menu>
